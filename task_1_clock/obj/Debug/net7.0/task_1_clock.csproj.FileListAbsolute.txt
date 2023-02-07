@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\projects\task_1_clock\bin\Debug\net7.0\task_1_clock.exe
+C:\Users\User\Desktop\projects\task_1_clock\bin\Debug\net7.0\task_1_clock.deps.json
+C:\Users\User\Desktop\projects\task_1_clock\bin\Debug\net7.0\task_1_clock.runtimeconfig.json
+C:\Users\User\Desktop\projects\task_1_clock\bin\Debug\net7.0\task_1_clock.dll
+C:\Users\User\Desktop\projects\task_1_clock\bin\Debug\net7.0\task_1_clock.pdb
+C:\Users\User\Desktop\projects\task_1_clock\obj\Debug\net7.0\task_1_clock.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\projects\task_1_clock\obj\Debug\net7.0\task_1_clock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\projects\task_1_clock\obj\Debug\net7.0\task_1_clock.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\projects\task_1_clock\obj\Debug\net7.0\task_1_clock.AssemblyInfo.cs
+C:\Users\User\Desktop\projects\task_1_clock\obj\Debug\net7.0\task_1_clock.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\projects\task_1_clock\obj\Debug\net7.0\task_1_clock.dll
+C:\Users\User\Desktop\projects\task_1_clock\obj\Debug\net7.0\refint\task_1_clock.dll
+C:\Users\User\Desktop\projects\task_1_clock\obj\Debug\net7.0\task_1_clock.pdb
+C:\Users\User\Desktop\projects\task_1_clock\obj\Debug\net7.0\task_1_clock.genruntimeconfig.cache
+C:\Users\User\Desktop\projects\task_1_clock\obj\Debug\net7.0\ref\task_1_clock.dll

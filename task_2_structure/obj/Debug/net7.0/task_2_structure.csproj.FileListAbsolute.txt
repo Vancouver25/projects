@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\projects\task_2_structure\bin\Debug\net7.0\task_2_structure.exe
+C:\Users\User\Desktop\projects\task_2_structure\bin\Debug\net7.0\task_2_structure.deps.json
+C:\Users\User\Desktop\projects\task_2_structure\bin\Debug\net7.0\task_2_structure.runtimeconfig.json
+C:\Users\User\Desktop\projects\task_2_structure\bin\Debug\net7.0\task_2_structure.dll
+C:\Users\User\Desktop\projects\task_2_structure\bin\Debug\net7.0\task_2_structure.pdb
+C:\Users\User\Desktop\projects\task_2_structure\obj\Debug\net7.0\task_2_structure.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\projects\task_2_structure\obj\Debug\net7.0\task_2_structure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\projects\task_2_structure\obj\Debug\net7.0\task_2_structure.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\projects\task_2_structure\obj\Debug\net7.0\task_2_structure.AssemblyInfo.cs
+C:\Users\User\Desktop\projects\task_2_structure\obj\Debug\net7.0\task_2_structure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\projects\task_2_structure\obj\Debug\net7.0\task_2_structure.dll
+C:\Users\User\Desktop\projects\task_2_structure\obj\Debug\net7.0\refint\task_2_structure.dll
+C:\Users\User\Desktop\projects\task_2_structure\obj\Debug\net7.0\task_2_structure.pdb
+C:\Users\User\Desktop\projects\task_2_structure\obj\Debug\net7.0\task_2_structure.genruntimeconfig.cache
+C:\Users\User\Desktop\projects\task_2_structure\obj\Debug\net7.0\ref\task_2_structure.dll
