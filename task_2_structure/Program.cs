@@ -1,37 +1,63 @@
 ﻿using System;
 
-class Node{
-	public char data { get; set; }
-    public List<Node> child { get; set; } = new List<Node>();
+class Node
+{
+	private char _data;
+	private List<Node> _child;
+
+	public Node(char data)
+	{
+		_data = data;
+		_child = new List<Node>();
+	}
+
+
+	//Output private data field value
+	public char GetData()
+	{
+		return _data; 
+	}
+
+	//Output private child field value
+	public List<Node> GetChild()
+	{
+		return _child; 
+	}
 };
 
+class Tree
+{
+	private Node _root;
 
-class Tree{	
-	public Node root { get; set; }
+	public Tree(char input)
+	{
+		_root = new Node(input);
+	}
 
-	//Input data by creating new nodes
-	public Tree(char input){
-        root = new Node { 
-			data = input 
-		};
-    }
-	
-	//Tree depth calculations using recursion for every child node
-	public int get_depth(Node node){
+
+	//Output private root field value
+	public Node GetRoot()
+	{
+		return _root; 	
+	}
+
+	public int GetDepth(Node node)
+	{
 		if (node == null)
 		{
 			return 0;
 		}
 
-		int depth = -1;
-		foreach (Node child in node.child)
+		int maxDepth = -1;
+		foreach (Node child in node.GetChild())
 		{
-			depth = Math.Max(depth, get_depth(child));
+			maxDepth = Math.Max(maxDepth, GetDepth(child));
 		}
-		return depth + 1;
+		return maxDepth + 1;
 	}
 
-	public static void Main(){
+	public static void Main()
+	{
 		/*Structure
 		       A
 		     /   \
@@ -41,19 +67,18 @@ class Tree{
               /	 
 			 F  
         */
-		//Input data into the structure
+		//Input data to create a structure
 		Tree tree = new Tree('A');
-		tree.root.child.Add(new Node { data = 'B' });
-		tree.root.child[0].child.Add(new Node { data = 'C' });
+		tree.GetRoot().GetChild().Add(new Node('B'));
+		tree.GetRoot().GetChild()[0].GetChild().Add(new Node('C'));
 
-		tree.root.child.Add(new Node { data = 'D' });
-		tree.root.child[1].child.Add(new Node { data = 'E' });
-		tree.root.child[1].child[0].child.Add(new Node { data = 'F' });
+		tree.GetRoot().GetChild().Add(new Node('D'));
+		tree.GetRoot().GetChild()[1].GetChild().Add(new Node('E'));
+		tree.GetRoot().GetChild()[1].GetChild()[0].GetChild().Add(new Node('F'));
 
-		tree.root.child[1].child.Add(new Node { data = 'G' });
-		tree.root.child[1].child.Add(new Node { data = 'H' });
-
-		//Calculate depth of the tree
-		Console.WriteLine("Tree depth:  " + tree.get_depth(tree.root));	
+		tree.GetRoot().GetChild()[1].GetChild().Add(new Node('G'));
+		tree.GetRoot().GetChild()[1].GetChild().Add(new Node('H'));
+		
+		Console.WriteLine("MaxDepth: " + tree.GetDepth(tree.GetRoot()));
 	}   
 };
